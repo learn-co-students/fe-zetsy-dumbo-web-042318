@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +18,111 @@ body {
 }
 
 /* Write all remaining styles here */
+
+h1 {
+	display: block;
+	font-size: 5em;
+	margin: 0 0 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #6F7F7A;
+}
+
+header a {
+	color: #6F7F7A;
+	text-decoration: none;
+}
+
+a {
+	background-color: transparent;
+}
+
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #6F7F7A;
+}
+
+a:active {
+	color: #6F7F7A;
+}
+
+a:visited {
+	color: #6F7F7A;
+}
+
+
+/* #necklace {
+	display: block;
+	border: solid;
+	border-color: #6F7F7A;
+	border-width: 5px;
+} */
+
+
+h2 {
+	display: block;
+	font-size: 2em;
+	color: #6F7F7A;
+	font-weight: bold;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+p {
+	font-size: 1em;
+	color: #555;
+	margin: 0 0 20px 0;
+}
+
+p {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0;
+	-webkit-margin-end: 0;
+}
+
+/* #press {
+	margin-bottom: 20px;
+	display: block;
+} */
+
+img {
+	display: inline;
+	border: solid;
+	border-color: #6F7F7A;
+	border-width: 5px;
+	padding: 1px;
+}
+
+
+#copyright {
+	display: block;
+	text-align: right;
+	margin: 0 10px 20px 0;
+	font-size: 0.75em
+}
+
+
+img {
+	transition: border-color 0.5s ease;
+	background-color: #6F7F7A;
+}
+
+img:hover {
+	border-color: #CCCCCC;
+}
+
+#learn:hover {
+	text-decoration: underline;
+}
+
+#learn:active {
+	color: blue;
+}
